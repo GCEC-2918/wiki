@@ -1,0 +1,41 @@
+@import 'theme.css';
+
+body {
+    background: #404040 !important;
+    color: #EEEEEE;
+}
+
+.wy-nav-side {
+    background: #272727;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #e87b1c;
+}
+
+@media screen and (min-width: 1100px) {
+    .wy-nav-content {
+        background: #404040;
+    }
+}
+
+.rst-content div[class^="highlight"], .rst-content pre.literal-block {
+    border: 1px solid #767879;
+}
+
+.rst-content code, .rst-content tt, code {
+    background: #232629;
+    border: 1px solid #767879;
+}
+
+.wy-nav-content {
+    max-width: 100%;
+}
+
+.btn-neutral {
+    background-color: #303030;
+}
+
+.btn-neutral:visited {
+    background-color: #272727;
+}
