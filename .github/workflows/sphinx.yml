@@ -7,8 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Build HTML
-      uses: ammaraskar/sphinx-action@master
+    - name: directly build sphinx
+        run: |
+          pip install -r requirements.txt
+          sphinx-build -D todo_include_todos=0 docs ./docs/build/html/
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
