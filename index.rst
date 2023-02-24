@@ -22,4 +22,5 @@ This is a set of resources created and maintained by the GCEC VEX teams.
    :caption: Select a page to get started:
 
    resources
-   tutorials/index
+   programming/index
+   building/index
